@@ -80,8 +80,8 @@ importers:
   packages/cli:
     dependencies:
       '@flue/client':
-        specifier: ^0.0.30
-        version: 0.0.30(typescript@5.9.3)
+        specifier: ^0.0.31
+        version: 0.0.31(typescript@5.9.3)
       '@valibot/to-json-schema':
         specifier: ^1.0.0
         version: 1.5.0(valibot@1.2.0(typescript@5.9.3))
@@ -115,8 +115,8 @@ importers:
         specifier: ^0.7.1
         version: 0.7.1(@opencode-ai/sdk@1.1.56)
       '@flue/client':
-        specifier: ^0.0.30
-        version: 0.0.30(typescript@5.9.3)
+        specifier: ^0.0.31
+        version: 0.0.31(typescript@5.9.3)
       '@opencode-ai/sdk':
         specifier: ^1.1.56
         version: 1.1.56
@@ -786,8 +786,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@flue/client@0.0.30':
-    resolution: {integrity: sha512-+eYt4qXNapss8qVu4NcKR1WMeK7Mtykosp4w9nbeo2VKhB+iTtvMBMMxQM0sFU9KWeCfeJNVBfKlZnpwnd0WQg==}
+  '@flue/client@0.0.31':
+    resolution: {integrity: sha512-1+Y3t1MwKy2OqtEKIoq/Qx7GK2tji+H079blVXaPC3doij4CyOGaixhjki9e3iW71Mpx75TXuSLgNlJqcL9e9A==}
 
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
@@ -3055,7 +3055,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@flue/client@0.0.30(typescript@5.9.3)':
+  '@flue/client@0.0.31(typescript@5.9.3)':
     dependencies:
       '@opencode-ai/sdk': 1.1.56
       '@valibot/to-json-schema': 1.5.0(valibot@1.2.0(typescript@5.9.3))
